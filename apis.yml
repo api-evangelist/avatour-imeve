@@ -1,7 +1,25 @@
 aid: avatour-imeve
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avatour-imeve.png
 name: AVATOUR, Imeve
-description: AVATOUR, Imeve is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: AVATOUR (Imeve Inc.) is a 360-degree video collaboration platform that
+  lets distributed teams conduct remote site visits, inspections, virtual tours, and
+  location-based training without travel. It supports live real-time 360 streaming,
+  synchronous shared sessions, and asynchronous on-demand recordings with annotations
+  and reporting, serving manufacturing, construction, real estate, logistics, and
+  retail. It was surfaced as a 500 Global portfolio company and added to the API Evangelist
+  network; no public API, SDK, or developer documentation surface was found during
+  the enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/avatour-imeve/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Video
+- Collaboration
+- 360 Video
+- Remote Work
+- Telepresence
+- Inspection
+- Virtual Tours
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://avatour.co
+- type: Support
+  url: https://avatour.com/support
+- type: Pricing
+  url: https://avatour.com/webshop/pricing
+- type: Blog
+  url: https://avatour.com/articles
+- type: StatusPage
+  url: https://avatour.live/status
+- type: VulnerabilityDisclosure
+  url: security/avatour-imeve-vulnerability-disclosure.yml
+- type: Security
+  url: security/avatour-imeve-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/avatour-imeve-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
